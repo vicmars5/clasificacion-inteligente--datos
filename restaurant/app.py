@@ -10,8 +10,11 @@ class Restaurant():
     def open_restaurant(self):
         print("Restaurant is open")
 
-restaurant = Restaurant("Sanborns", "Cafe")
+restaurant1 = Restaurant("Sanborns", "Cafe")
+restaurant2 = Restaurant("Starbucks", "Cafe")
+restaurant3 = Restaurant("Wings Army", "Bar")
 
-restaurant.describe_restaurant()
-restaurant.open_restaurant()
+restaurant1.describe_restaurant()
+restaurant2.describe_restaurant()
+restaurant3.describe_restaurant()
 
